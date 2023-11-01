@@ -15,7 +15,7 @@ export type Doc = {
   type: 'Doc'
   title: string
   description?: string | undefined
-  tags?: string | undefined
+  tags?: string[] | undefined
   publishedAt: string
   updatedAt: string
   author: string

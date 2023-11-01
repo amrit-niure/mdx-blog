@@ -30,8 +30,8 @@ export const Doc = defineDocumentType(() => ({
             type: 'string',
         },
         tags: {
-            type: 'string',
-            list: true,
+            type: 'list',
+            of: { type: 'string' },
         },
         publishedAt: {
             type: 'string',
